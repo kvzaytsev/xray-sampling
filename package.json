@@ -1,0 +1,19 @@
+{
+  "name": "xray-sampling",
+  "scripts": {
+    "test": "mocha ./xray-sampling.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kvzaytsev/xray-sampling.git"
+  },
+  "author": "Kirill Zaytsev",
+  "homepage": "https://github.com/kvzaytsev/xray-sampling#readme",
+  "dependencies": {
+    "aws-xray-sdk-core": "^2.0.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
